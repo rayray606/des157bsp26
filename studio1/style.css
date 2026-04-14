@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.fa-expand {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 32px;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.fa-expand:hover {
+    color: #ccc;
+    transform: scale(1.1);
+}
