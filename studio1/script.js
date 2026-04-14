@@ -1,18 +1,40 @@
-(function () {
+(function(){
     'use strict';
+    const mySection = document.querySelector ('#mySection');
+    const line1 = document.querySelector ('#line1');
+    const line2 = document.querySelector ('#line2');
+    const line3 = document.querySelector ('#line3');
+    const line4 = document.querySelector ('#line4');
+ 
+    const intervalID =setInterval(checkTime, 1000);
 
-    const video = document.querySelector('#video');
-    const expandBtn = document.querySelector('.fa-expand');
+    function checkTime(){
+        if (1 < myVideo.currentTime && myVideo.currentTime < 3){
+            line1.className = 'showing';
+        } else {
+            line1.className = 'hidden';
+        }
+        } if (4 < myVideo.currentTime && myVideo.currentTime < 6){
+            line2.className = 'showing';
+        } else {
+            line2.className = 'hidden';
+        } if (7 < myVideo.currentTime && myVideo.currentTime < 9){
+            line3.className = 'showing';
+        } else {
+            line3.className = 'hidden';
+        } if (10 < myVideo.currentTime && myVideo.currentTime < 12){
+            line4.className = 'showing';
+        } else {
+            line4.className = 'hidden';
+        }
+    }
 
-    expandBtn.addEventListener('click', function () {
+    fs.addEventListener('click', function() {
         if (!document.fullscreenElement) {
             document.documentElement.requestFullscreen();
         } else {
             document.exitFullscreen();
-        }
-    });
-
-    video.addEventListener('loadeddata', function () {
-        console.log('Video is ready');
-    });
-})();
+        
+        }    
+    })
+    })();
