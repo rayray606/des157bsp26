@@ -1,4 +1,13 @@
+
+
+@font-face {
+  font-family: 'Pokemon';
+  src: url('Pokemon-Hollow.ttf') format('truetype');
+}
+
 header {
+  font-family: "Pokemon", system-ui;
+  font-size: 1.05em;
   text-align: center;
   padding: 20px 0;
   background: #ef5454;
@@ -19,8 +28,8 @@ header {
 
 .card {
   flex: 0 0 250px;
-  background: white;
-  border-radius: 12px;
+  background: rgb(255, 197, 197);
+  border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   text-align: center;
@@ -31,9 +40,9 @@ header {
   transform: scale(1.05);
 }
 
-.carousel-track:hover {
+/* .carousel-track:hover {
   animation-play-state: paused;
-}
+} */
 
 .card img {
   width: 100%;
