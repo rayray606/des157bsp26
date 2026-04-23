@@ -1,0 +1,51 @@
+header {
+  text-align: center;
+  padding: 20px 0;
+  background: #ef5454;
+  color: #ffffff;
+}
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  padding: 1em 0;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  animation: scrollCards 40s linear infinite;
+}
+
+.card {
+  flex: 0 0 250px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.carousel-track:hover {
+  animation-play-state: paused;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 3 / 4; 
+  object-fit: cover;
+}
+
+@keyframes scrollCards {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Pikachu",
+    "prices": {
+      "2024": 11.99,
+      "2026": 73.75
+    },
+    "artist": "Hiroyuki Yamamoto"
+  },
+  {
+    "name": "Charizard",
+    "prices": {
+      "2024": 100.0,
+      "2026": 405.0
+    },
+    "artist": "Miki Kudo"
+  },
+  {
+    "name": "Bulbasaur",
+    "prices": {
+      "2024": 21.75,
+      "2026": 72.44
+    },
+    "artist": "Yoriyuki Ikegami"
+  },
+  {
+    "name": "Squirtle",
+    "prices": {
+      "2024": 22.75,
+      "2026": 95.98
+    },
+    "artist": "Mitsuhiro Arita"
+  },
+  {
+    "name": "Eevee",
+    "prices": {
+      "2025": 34.9,
+      "2026": 28.97
+    },
+    "artist": "Natsuko Shoji"
+  },
+  {
+    "name": "Sylveon",
+    "prices": {
+      "2024": 113.12,
+      "2026": 328.36
+    },
+    "artist": "Taira Akitsu"
+  },
+  {
+    "name": "Leafeon",
+    "prices": {
+      "2025": 6.46,
+      "2026": 4.11
+    },
+    "artist": "5ban Graphics"
+  },
+  {
+    "name": "Glaceon",
+    "prices": {
+      "2025": 2.5,
+      "2026": 2.75
+    },
+    "artist": "oky CG Works"
+  },
+  {
+    "name": "Vaporeon",
+    "prices": {
+      "2024": 3.61,
+      "2026": 18.36
+    },
+    "artist": "Jiro Sasumo"
+  },
+  {
+    "name": "Flareon",
+    "prices": {
+      "2024": 2.88,
+      "2026": 16.15
+    },
+    "artist": "You Iribi"
+  },
+  {
+    "name": "Jolteon",
+    "prices": {
+      "2024": 3.3,
+      "2026": 14.25
+    },
+    "artist": "DOM"
+  },
+  {
+    "name": "Espeon",
+    "prices": {
+      "2025": 368.92,
+      "2026": 250.0
+    },
+    "artist": "sui"
+  },
+  {
+    "name": "Umbreon",
+    "prices": {
+      "2024": 505.82,
+      "2026": 1789.68
+    },
+    "artist": "KEIICHIRO ITO"
+  },
+  {
+    "name": "Jirachi",
+    "prices": {
+      "2025": 59.8,
+      "2026": 157.12
+    },
+    "artist": "Naoki Saito"
+  }
+]
