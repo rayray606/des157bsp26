@@ -1,15 +1,19 @@
 
+@font-face {
+  font-family: 'Pokemon Hollow';
+  src: url(fonts/Pokemon-Hollow.ttf) format('truetype');
+}
 
 @font-face {
-  font-family: 'Pokemon';
-  src: url('Pokemon-Hollow.ttf') format('truetype');
+  font-family: 'Pokemon Solid';
+  src: url(fonts/Pokemon-Solid.ttf) format('truetype');
 }
 
 header {
-  font-family: "Pokemon", system-ui;
-  font-size: 1.05em;
+  font-family: "Pokemon Hollow", system-ui;
+  font-size: 1.15em;
   text-align: center;
-  padding: 20px 0;
+  padding: 5px ;
   background: #ef5454;
   color: #ffffff;
 }
@@ -26,7 +30,14 @@ header {
   animation: scrollCards 40s linear infinite;
 }
 
+h2 {
+  font-family: 'Pokemon Hollow', system-ui;
+  text-align: center;
+  margin: 20px 0;
+}
+
 .card {
+  /* font-family: 'Pokemon Hollow', system-ui; */
   flex: 0 0 250px;
   background: rgb(255, 197, 197);
   border-radius: 15px;
@@ -47,7 +58,7 @@ header {
 .card img {
   width: 100%;
   aspect-ratio: 3 / 4; 
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 @keyframes scrollCards {
