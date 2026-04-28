@@ -51,10 +51,6 @@ h2 {
   transform: scale(1.05);
 }
 
-/* .carousel-track:hover {
-  animation-play-state: paused;
-} */
-
 .card img {
   width: 100%;
   aspect-ratio: 3 / 4; 
