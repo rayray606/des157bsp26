@@ -1,0 +1,39 @@
+body {
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+max-width: 850px;
+margin: auto;
+padding: 40px;
+line-height: 1.7;
+background-color: #fff0d9;
+color: #222;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 40px;
+}
+
+h2 {
+margin-top: 40px;
+border-bottom: 2px solid #ccc;
+padding-bottom: 8px;
+}
+
+section {
+background: white;
+padding: 25px;
+margin-bottom: 25px;
+border-radius: 10px;
+}
+
+ul {
+padding-left: 25px;
+}
+
+li {
+margin-bottom: 12px;
+}
+
+strong {
+color: #4b3f35;
+}
