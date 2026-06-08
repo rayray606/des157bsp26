@@ -1,5 +1,12 @@
 // AOS
 
+const overlay = document.querySelector("#overlay");
+const closePopup = document.querySelector("#closePopup");
+
+closePopup.addEventListener("click", () => {
+    overlay.style.display = "none";
+    });
+    
 AOS.init();
 
 
